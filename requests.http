@@ -6,7 +6,7 @@ GET http://localhost:3000/tasks?sort=oldest&count=3
 
 ###
 
-GET http://localhost:3000/tasks/1
+GET http://localhost:3000/tasks/66751d596929c2e9f90ed10
 
 ###
 
@@ -14,13 +14,13 @@ POST http://localhost:3000/tasks
 Content-Type: application/json
 
 {
-    "title":"샌드위치 먹기",
+    "title":"",
     "description":"맛있는 샌드위치"   
 }
 
 ###
 
-PATCH http://localhost:3000/tasks/1
+PATCH http://localhost:3000/tasks/66751d596929c2e9f90ed105
 Content-Type: application/json
 
 {
@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/tasks/1
+DELETE http://localhost:3000/tasks/66751d596929c2e9f90ed105
